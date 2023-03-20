@@ -9,5 +9,7 @@ def ocr(fname):
         ocr_ret = 'lot 123456\nbb/ma 2023 no 11'
     elif fname == 'image6.tif':
         ocr_ret = 'nsx 09/05/2022\nhsd 08/05/2023'
+    else:
+        ocr_ret = "This case still didn't train yet"
 
     return ocr_ret
